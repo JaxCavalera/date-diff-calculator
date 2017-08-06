@@ -25,8 +25,6 @@ export const getDateIfValid = (date) => {
 
     let isValidYear = (year >= 1900) && (year <= 2010);
     let isValidMonth = isValidYear && (month >= 1) && (month <= 12);
-
-
     let daysInMonth;
 
     if (isValidMonth && (year !== 1900) && (year % 4 === 0) && typeof constants.leapYearDaysPerMonth[month - 1] !== 'undefined') {
