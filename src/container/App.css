@@ -1,0 +1,48 @@
+.ddc__app {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.ddc__app-intro {
+    text-align: center;
+    padding: 0 2.5vh;
+    margin: 2.5vh 0 0;
+    font-size: 5vh;
+}
+
+.ddc__app-date-input {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    box-sizing: border-box;
+    width: 90%;
+    height: 5vh;
+    font-size: 3vh;
+}
+
+.ddc__app-calculate-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    width: 90%;
+    height: 5vh;
+    font-size: 3vh;
+}
+
+.ddc__app-date-diff-value {
+    padding: 0 2.5vh;
+    margin: 0 0 2.5vh;
+    color: red;
+    text-align: center;
+    font-size: 3vh;
+}
+
+.ddc__app-date-diff-value.--valid {
+    color: rgb(100, 220, 175);
+    font-weight: 700;
+}
